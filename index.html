@@ -1,69 +1,34 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link type="text/css" href="assets/css/main.css" rel="stylesheet" />
+    <title>Cyclic Triangulations</title>
+</head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Cyclic-triangulations : triangular recursions over HTML5 canvas to create shapes and patterns using Javascript" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Cyclic-triangulations</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/swevens/cyclic-triangulations">View on GitHub</a>
-
-          <h1 id="project_title">Cyclic-triangulations</h1>
-          <h2 id="project_tagline">triangular recursions over HTML5 canvas to create shapes and patterns using Javascript</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/swevens/cyclic-triangulations/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/swevens/cyclic-triangulations/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-
-</p>
-    Cyclic Triangulations<p></p>
-    <div>
-        </div>
-    &lt;!-- scrip'p'ts e't'c --&gt;
-    <p>
-      (function(i,s,o,g,r,a,m){i[&amp;#39;GoogleAnalyticsObject&amp;#39;]=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,&amp;#39;script&amp;#39;,&amp;#39;//&lt;a href="http://www.google-analytics.com/analytics.js&amp;#x27;,&amp;#x27;ga&amp;#x27;"&gt;www.google-analytics.com/analytics.js&amp;#39;,&amp;#39;ga&amp;#39;&lt;/a&gt;);&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ga(&amp;#39;create&amp;#39;, &amp;#39;UA-40241715-1&amp;#39;, &amp;#39;github.com&amp;#39;);
-  ga(&amp;#39;send&amp;#39;, &amp;#39;pageview&amp;#39;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;</p>
-
-<p>
-</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Cyclic-triangulations maintained by <a href="https://github.com/swevens">swevens</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<body class="ready home">
+    <div id="stage">
+    	<canvas style="display:block" id="canvas" width="285" height="285"></canvas>
+   	</div>
+    <!-- scrip'p'ts e't'c -->
+    <script src="assets/js/lib/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/lib/DAT.GUI.js"></script>
+    <script src="assets/js/lib/requestanimationframe.js"></script>
+    <script src="assets/js/SWEVENS.js"></script>
+    <script src="assets/js/SWEVENS.Recursion.js"></script>
+    <script src="assets/js/SWEVENS.NODE.js"></script>
+    <script src="assets/js/SWEVENS.Config.js"></script>
+    <script src="assets/js/booter.js"></script>
     
-
-  </body>
+   <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-40241715-1', 'github.com');
+	  ga('send', 'pageview');
+   </script>
+        
+</body>
 </html>
